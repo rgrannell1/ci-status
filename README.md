@@ -1,4 +1,2 @@
 
-# IsItBricked
-
-IsItBricked is 
+# cistatus
