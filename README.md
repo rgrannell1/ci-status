@@ -1,5 +1,5 @@
 
-# CI-status v0.1.0  [![Build Status](https://travis-ci.org/rgrannell1/cistatus.png)](https://travis-ci.org/rgrannell1/cistatus)
+# CI-status v0.1.0  [![Build Status](https://travis-ci.org/rgrannell1/ci-status.png)](https://travis-ci.org/rgrannell1/ci-status)
 
 CI-status is a command-line tool for querying the build status of a travis CI repository. It is primarily meant for use in build scripts and pre-commit 
 hooks, as a means of checking if a repository is currently passing its tests.
