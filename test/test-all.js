@@ -59,3 +59,26 @@ console.log("* json encoder has correct fields and values.")
 	console.assert(
 		_json('failed').statusCode === 1,
 		"** missing fields in utils.formatStatus.json.")
+
+
+
+
+
+console.log("* getting repository details from travis works")
+
+	getRepo('rgrannell1', 'kea', function (repo) {
+
+		console.assert(
+			repo.repo.hasOwnProperty('description'),
+			"** repo missing field.")
+
+		console.assert(
+			repo.repo.hasOwnProperty('github_language'),
+			"** repo missing field.")
+
+		console.assert(
+			repo.repo.hasOwnProperty('last_build_state'),
+			"** repo missing field.")
+
+	})
+
