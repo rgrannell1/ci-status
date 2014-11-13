@@ -17,7 +17,7 @@ wget -q -O - https://raw.githubusercontent.com/rgrannell1/cistatus/master/instal
 CI-status can output an integer flag (`0 => passed`, `n => failed`), the status label used by travis, or a JSON array containing both pieces of information.
 
 ```bash
-cistatus --json -- 'rgrannell' 'kea'
+cistatus --json -- 'rgrannell' 'ci-status'
 cistatus --help
 ```
 
